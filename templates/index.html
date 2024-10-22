@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Bienvenido a mi Tienda de BEBIDAS</h1>
+    <nav>
+        <a href="{{ url_for('agregar_producto') }}">Nuevo Producto</a>
+        <a href="{{ url_for('listar_productos') }}">Registro de Productos</a>
+    </nav>
+</body>
+</html>
